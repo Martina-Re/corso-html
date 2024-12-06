@@ -1,0 +1,14 @@
+*{}
+h1{}
+#id{}
+.classe{}
+
+header h1{}
+
+header > h1{}
+
+h1 + div{}
+
+[href="#"]{
+    
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 1px;
+    box-sizing: border-box;
+}
+
+.center  {
+    text-align: center;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+}
+
+main{
+    width: 100vw;
+}
+
+section{
+    display: inline-block;
+    background-color: aqua;
+    height: 300px;
+    width: 32%;
+}
+
+footer{
+    background-color:cadetblue;
+    height: 100px;
+}
+
+main * {
+    margin:0;
+}
+
+.tipo-1{
+    height: 100px;
+    border: 1px solid black;
+}
+
+.tipo-2{
+    height: 20%;
+    border: 1px dotted black;
+    background-color: blueviolet;
+}
