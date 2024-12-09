@@ -1,0 +1,44 @@
+
+header{
+    height: 50px;
+    background-color: rgba(138, 43, 226, 0.7);
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    height: 40px;
+    background-color: rgba(236, 17, 60, 0.5);
+    text-align: center;
+    font-size: 22px;
+}
+
+#wrapper{
+    background-image: url(./download123.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.meteo{
+    display: inline-block;
+    margin: 10px;
+    height: 500px;
+    color: rgb(154, 196, 233);
+    font-style: oblique;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px black;
+    width: 70%;
+    border: 2px solid;
+    border-color: rgb(61, 11, 11);
+}
+.notizie{
+    width: 26%;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
