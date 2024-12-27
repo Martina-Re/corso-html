@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio1</title>
+    <!--
+    Crea una sezione con tre rettangoli affiancati:
+    Ogni rettangolo deve avere dimensioni uguali (es. 150px x 150px) e un colore di sfondo diverso.
+    Usa Flexbox per allinearli al centro, sia orizzontalmente che verticalmente, nella pagina.
+    -->
+    <style>
+        .rettangoli{
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+        }
+        .rettangolo1{
+            background-color: rgb(10, 83, 83);
+        }
+        .rettangolo2{
+            background-color: blue;
+        }
+        .rettangolo3{
+            background-color: rgb(76, 22, 146);
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="rettangoli rettangolo1"></div>
+        <div class="rettangoli rettangolo2"></div>
+        <div class="rettangoli rettangolo3"></div>
+    </section>
+</body>
+</html>

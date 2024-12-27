@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio3</title>
+    <!--
+    Crea un layout a due colonne:
+    La colonna di sinistra occupa il 30% della larghezza e ha un colore di sfondo.
+    La colonna di destra occupa il 70% della larghezza e ha un colore diverso.
+    Usa Flexbox per allinearle orizzontalmente e assicurati che abbiano altezze uguali.
+    -->
+    <style>
+        .container{
+            display: flex;
+            height: 300px;
+        }
+        .prima{
+            flex-grow: 3;
+            background-color: coral;
+            margin: 10px;
+        }
+        .seconda{
+            flex-grow: 7;
+            background-color: orangered;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="prima">
+
+        </div>
+        <div class="seconda">
+
+        </div>
+    </div>
+    
+</body>
+</html>

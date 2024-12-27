@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio4</title>
+    <!--
+    Crea una sezione con 4 rettangoli di larghezza uguale
+    Usa Flexbox per distribuire i rettangoli:
+    Nella prima riga, usa space-between per lasciare spazio tra gli elementi.
+    Nella seconda riga, usa space-around per lasciare spazio sia tra gli elementi che ai bordi.
+    -->
+    <style>
+        .content1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 500px;
+        }
+        .content2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 500px;
+        }
+        .rettangoli1{
+            background-color: rgb(12, 68, 68);
+        }
+        .rettangoli2{
+            background-color: rgb(33, 12, 68);
+        }
+        .rettangoli3{
+            background-color: rgb(63, 6, 90);
+        }
+        .rettangoli4{
+            background-color: rgb(68, 12, 47);
+        }
+
+        .rettangoli{
+            height: 50px;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content1">
+        <div class="rettangoli1 rettangoli"></div>
+        <div class="rettangoli2 rettangoli"></div>
+
+    </div>
+    <div class="content2">
+        <div class="rettangoli3 rettangoli"></div>
+        <div class="rettangoli4 rettangoli"></div>
+    </div>
+        
+</body>
+</html>
